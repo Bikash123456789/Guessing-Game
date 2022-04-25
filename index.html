@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Comfortaa:wght@300&family=Indie+Flower&family=Kaushan+Script&family=Luckiest+Guy&family=Montserrat&family=Oswald:wght@200&family=Palette+Mosaic&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+        <!-- First Division -->
+      <div class="one">
+        <div class="top">
+          <button class="reset">Again!</button>
+          <p>(Between 1 and 5)</p>
+        </div>
+        <div class="bottom">
+          <h2>Guess My Number!</h2>
+        </div>
+      </div>
+
+      <!-- Division two -->
+      <div class="two">
+        <div class="left"></div>
+        <div class="middle number">?</div>
+        <div class="right"></div>
+      </div>
+
+
+      <!-- Division three -->
+      <div class="three">
+        <div class="left">
+          <div class="input">
+            <input type="number" class="guess" />
+          </div>
+          <button class="check">Check!</button>
+        </div>
+        <div class="right">
+          <p class="display-result">Start Guessing...</p>
+          <p>
+            <span>💯 Score :</span>
+            <span class="score">5</span>
+          </p>
+          <p>
+            <span>😎 HighScore :</span>
+            <span class="highScore">0</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
